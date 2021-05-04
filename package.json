@@ -1,0 +1,24 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "find recipes",
+  "default": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Berk Birincioglu",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^5.0.2",
+    "postcss": "^8.2.13",
+    "sass": "^1.32.11"
+  },
+  "dependencies": {
+    "core-js": "^3.11.0",
+    "fractional": "^1.0.0",
+    "parcel": "^2.0.0-beta.2",
+    "regenerator-runtime": "^0.13.7"
+  }
+}
