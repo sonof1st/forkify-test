@@ -26,6 +26,11 @@
     &--next {
       float: right;
     }
+    &--total{
+      float: right;
+      position: relative;
+      left: -20%;
+    }
   }
 }
 

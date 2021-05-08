@@ -33,6 +33,9 @@ class paginationView extends View{
                 <use href="${icons}#icon-arrow-right"></use>
                 </svg>
             </button>
+            <button data-goto="${pagesLength}" class="btn--inline pagination__btn--total" title="Last Page">
+                ${pagesLength}
+            </button>
             `;
         }  
         
@@ -44,6 +47,9 @@ class paginationView extends View{
                 <use href="${icons}#icon-arrow-left"></use>
                 </svg>
                 <span>Page ${currPage-1}</span>
+            </button>
+            <button data-goto="${1}" class="btn--inline pagination__btn--next" title="First Page">
+                ${1}
             </button>
             `;
         }
@@ -62,6 +68,9 @@ class paginationView extends View{
                 <svg class="search__icon">
                     <use href="${icons}#icon-arrow-right"></use>
                 </svg>
+            </button>
+            <button data-goto="${pagesLength}" class="btn--inline pagination__btn--total" title="Last Page">
+                ${pagesLength}
             </button>
           `;
         }
